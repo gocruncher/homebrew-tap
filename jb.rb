@@ -1,8 +1,8 @@
 class Jb < Formula
   desc ""
   homepage ""
-  url "https://github.com/ASalimov/jbuilder/archive/v1.2.tar.gz"
-  sha256 "d43987a409b26390c231bbd2f0f9e9d8d5444e76e8e93e1614ef786f518b6cc8"
+  url "https://github.com/ASalimov/jbuilder/archive/v1.3.tar.gz"
+  sha256 "ea14daece882e56baff6da5bc1e06d39f7ace5250c622a8ebb6145edc043e0c2"
   license ""
 
   depends_on "go" => :build
