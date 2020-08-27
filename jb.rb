@@ -8,10 +8,11 @@ class Jb < Formula
   depends_on "go" => :build
   def install
     system "./gobuild.sh"
-    bin.install ".gobuild/bin/jbuilder" => "jb"
+    bin.install ".gobuild/bin/jbuilder" => "jbuilder"
+    bin.install ".gobuild/bin/jbuilder" => "job"
   end
 
   test do
-    system "#{bin}/jb", "--help"
+    system "#{bin}/jbuilder", "--help"
   end
 end
