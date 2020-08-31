@@ -9,7 +9,6 @@ class Jb < Formula
   def install
     system "./gobuild.sh"
     bin.install ".gobuild/bin/jbuilder" => "jbuilder"
-    bin.install ".gobuild/bin/jbuilder" => "job"
   end
 
   test do
