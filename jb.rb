@@ -12,6 +12,6 @@ class Jb < Formula
   end
 
   test do
-    system "#{bin}/jbuilder", "--help"
+    system "#{bin}/jb", "--help"
   end
 end
