@@ -1,8 +1,8 @@
 class Jj < Formula
   desc ""
   homepage ""
-  url "https://github.com/gocruncher/jenkins-job-ctl/archive/v1.1.0.tar.gz"
-  sha256 "db63a14502d69fd2638411b22a6f0563eecb06024c6763f7d6c43a10e5b2ffee"
+  url "https://github.com/gocruncher/jenkins-job-ctl/archive/v1.1.2.tar.gz"
+  sha256 "60cfd0f7d100edecb5428f98a77e5492438ea40377bfd20852fa5576ea7f184a"
   license ""
 
   depends_on "go" => :build
